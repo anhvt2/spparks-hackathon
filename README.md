@@ -15,7 +15,7 @@ It is well-known that materials, specifically metals and alloys, exhibit a multi
 
 The participants are given
 
-* a collection of CAD models with STL format,
+* a collection of CAD models with STL format in [./cad/](cad/) folder,
 * and a microstructure dataset generated from SPPARKS ([https://spparks.sandia.gov](https://spparks.sandia.gov)).
 
 The tasks are:
