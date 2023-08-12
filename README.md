@@ -118,7 +118,7 @@ Step 1: create a GitHub repository that includes
 
 Step 2: 
 
-* invite idetccie.seikm@gmail.com and anh.vt2@gmail.com as a collaborator to your GitHub repository. We will
+* invite anh.vt2@gmail.com as a collaborator to your GitHub repository. We will
     * clone to a local computer or high-performance cluster,
     * run an automated script through your final results,
     * and calculate the points.
