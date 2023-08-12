@@ -1,0 +1,35 @@
+# SPPARKS Potts tests on generic lattice
+
+seed         56789
+
+app_style    potts 1000
+
+dimension    3
+lattice      sc/26n 1.0
+region       box block 0 100 0 100 0 100
+create_box   box
+create_sites box
+set          site range 1 1000
+
+sweep        random
+# sweep       raster mask yes
+# solve_style      tree
+sector       yes
+
+# solve_style      tree
+# solve_style      group 26 1
+# sector      yes
+
+diag_style       energy
+
+temperature  0.0
+
+stats            10.0
+# dump             1 text 10.0 dump.potts
+dump             1 text 1.0 dump.*.out id site i2 d1 energy
+dump vtkFile     vtk 1.0 potts_3d.*.vti i1
+dump_modify      vtkFile vtk 100 100 100 0 10000 sort id
+diag_style       cluster delt 1.0 stats no logfreq 9 10.0 filename cluster.dat
+
+run              100.0
+
