@@ -1,0 +1,3 @@
+[submodule "spparks"]
+	path = spparks
+	url = https://github.com/spparks/spparks
