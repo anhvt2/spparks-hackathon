@@ -81,14 +81,9 @@ These are just a few examples of the open source software and packages available
 
 # Dataset Description
 
-Running SPPARKS on Sandia HPC, uploaded to one of these data server/host:
+* Download from [https://zenodo.org/record/8241535](https://zenodo.org/record/8241535)
 
-* [https://zenodo.org/](https://zenodo.org/)
-* [https://dataverse.harvard.edu/](https://dataverse.harvard.edu/)
-* [https://materialsdata.nist.gov/](https://materialsdata.nist.gov/)
-* Sandia external data server.
-
-You can run SPPARKS by yourself to generate data with the [tutorial](#tutorial) or use available datasets (https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KJMK9Z, https://doi.org/10.7910/DVN/KJMK9Z )
+You can run SPPARKS by yourself to generate data with the [tutorial](#tutorial) or use another available datasets (https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/KJMK9Z, https://doi.org/10.7910/DVN/KJMK9Z )
 
 # <a name="subject-matter-experts"></a> Subject matter experts
 
