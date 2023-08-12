@@ -132,7 +132,7 @@ Step 2:
 
 1. Results (**60%**): (3D objects) 
     * microstructure similarities compared to the generated datasets
-    * sum of object points in Section [3D objects](#3d-objects) 
+    * sum of object points (depending on difficulty levels) in Section [3D objects](#3d-objects) 
     * complexity of the object geometry
     * complexity of the approach
     * *rescale according to max of 150 pts*.
